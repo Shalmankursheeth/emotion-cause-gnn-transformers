@@ -1,12 +1,13 @@
-#**Multi-Modal Emotion and Cause Detection in Tweets using Graph Neural Networks and Transformer Architectures**
+# Multi-Modal Emotion and Cause Detection in Tweets using Graph Neural Networks and Transformer Architectures
+
 This project focuses on abstractive generation and classification of emotions and their causes from tweets. It leverages the synergy between Graph Neural Networks (GNNs) and Transformer-based architectures to perform multi-modal analysis of textual data. The primary objective is to detect emotions and generate their underlying causes in a multi-class emotion detection task.
 
-🔍 Problem Statement
+# 🔍 Problem Statement
 Understanding not just what emotion a tweet expresses but why that emotion is expressed is a crucial task in emotion-aware systems. This project explores how advanced architectures can extract semantic relationships and abstractly generate cause phrases to explain the detected emotions.
 
 📁 Repository Structure
 
-📦 Multi-Modal-Emotion-and-Cause-Detection
+# 📦 Multi-Modal-Emotion-and-Cause-Detection
 
 ├── approach1_graph_based.py             # Graph-based Emotion-Cause classification
 ├── approach2_transformers_combined.py  # Transformer-based dual-stage pipeline
@@ -15,7 +16,7 @@ Understanding not just what emotion a tweet expresses but why that emotion is ex
 ├── README.md                           # Project documentation 
 ⚠️ Note: Model weights and large classifier files are excluded to keep the repository lightweight. You can train and fine-tune models using the provided code and your own environment.
 
-🧠 Approaches Used
+# 🧠 Approaches Used
 ✅ 1. Graph-Based Classification (approach1_graph_based.py)
 Utilizes Graph Neural Networks to understand relationships between words/entities.
 
@@ -35,7 +36,7 @@ Enhances BART with tree-based dependency parsing for structured abstractive gene
 
 Improves cause generation quality by integrating linguistic structure.
 
-📊 Dataset
+# 📊 Dataset
 Format: .csv with columns like Tweet, Emotion, Cause (for training).
 
 Includes 10 sample rows (data_sample.csv) for testing and demonstration.
@@ -44,7 +45,7 @@ You can use your own larger dataset to train and evaluate models.
 
 Due to space limitations, a full dataset is not hosted here. Publicly available datasets (like EmotionX, GoEmotions, or custom annotated Twitter data**) can be used.
 
-⚙️ Setup and Usage
+# ⚙️ Setup and Usage
 📦 Install Requirements
 Requirements depend on the approach (e.g., PyTorch, Transformers, NetworkX, DGL, spaCy, etc.).
 
@@ -65,7 +66,7 @@ Emotion Classification: Predict the corresponding emotion class (e.g., joy, sadn
 
 Multimodal Reasoning: Combine linguistic graph and transformer attention for explainable emotion detection.
 
-💡 Applications
+# 💡 Applications
 Mental health monitoring on social media.
 
 Chatbot empathy training.
@@ -75,7 +76,7 @@ Customer feedback analysis.
 Emotion-aware virtual assistants.
 
 
-🙌 Acknowledgements
+# 🙌 Acknowledgements
 Inspired by research in multi-modal emotion recognition, transformer-based NLP, and semantic cause-effect modeling.
 
 Built as part of a research initiative at NIT Trichy.

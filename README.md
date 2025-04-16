@@ -1,19 +1,18 @@
-Multi-Modal Emotion and Cause Detection in Tweets using Graph Neural Networks and Transformer Architectures
+#**Multi-Modal Emotion and Cause Detection in Tweets using Graph Neural Networks and Transformer Architectures**
 This project focuses on abstractive generation and classification of emotions and their causes from tweets. It leverages the synergy between Graph Neural Networks (GNNs) and Transformer-based architectures to perform multi-modal analysis of textual data. The primary objective is to detect emotions and generate their underlying causes in a multi-class emotion detection task.
 
 🔍 Problem Statement
 Understanding not just what emotion a tweet expresses but why that emotion is expressed is a crucial task in emotion-aware systems. This project explores how advanced architectures can extract semantic relationships and abstractly generate cause phrases to explain the detected emotions.
 
 📁 Repository Structure
-bash
-Copy
-Edit
+
 📦 Multi-Modal-Emotion-and-Cause-Detection
+
 ├── approach1_graph_based.py             # Graph-based Emotion-Cause classification
 ├── approach2_transformers_combined.py  # Transformer-based dual-stage pipeline
 ├── approach3_tree_bart.py              # Tree-BART for abstractive cause generation
 ├── data_sample.csv                     # Sample dataset (10 rows for demo/training)
-├── README.md                           # Project documentation
+├── README.md                           # Project documentation 
 ⚠️ Note: Model weights and large classifier files are excluded to keep the repository lightweight. You can train and fine-tune models using the provided code and your own environment.
 
 🧠 Approaches Used
